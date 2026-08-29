@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">公考知识采集器</string>
+    <string name="intake_title">收集新素材</string>
+    <string name="intake_subtitle">粘贴题目文字，或从相册选择一张截图。原始内容会先保存到本机。</string>
+    <string name="intake_text_label">题目或素材原文</string>
+    <string name="intake_save_text">保存文字</string>
+    <string name="intake_pick_image">选择一张截图</string>
+    <string name="intake_saved">已保存到本机收集箱</string>
+    <string name="intake_empty_text">没有可保存的文字，请先粘贴内容</string>
+    <string name="intake_unsupported_mime">仅支持 PNG 或 JPEG 截图</string>
+    <string name="intake_multiple_not_supported">一期每次只能导入一张图片</string>
+    <string name="intake_unreadable">无法读取该内容，请换一张截图重试</string>
+</resources>
