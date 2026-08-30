@@ -60,7 +60,7 @@ dependencies {
     ksp("androidx.room3:room3-compiler:3.0.2")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.robolectric:robolectric:4.16.1")
+    testImplementation("org.robolectric:robolectric:4.17-beta-4")
     testImplementation("androidx.sqlite:sqlite-bundled-jvm:2.7.0")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
     androidTestImplementation("androidx.test.ext:junit:1.3.0")

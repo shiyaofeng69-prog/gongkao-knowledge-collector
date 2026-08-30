@@ -33,7 +33,7 @@ android {
         minSdk = 29
         targetSdk = 37
         versionCode = 1
-        versionName = "0.2.0-intake"
+        versionName = "0.3.0-collection"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -99,7 +99,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.robolectric:robolectric:4.16.1")
+    testImplementation("org.robolectric:robolectric:4.17-beta-4")
     androidTestImplementation(composeBom)
     androidTestImplementation("androidx.test.ext:junit:1.3.0")
     androidTestImplementation("androidx.test:runner:1.7.0")

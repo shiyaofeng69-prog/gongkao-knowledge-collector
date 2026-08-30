@@ -11,4 +11,18 @@
     <string name="intake_unsupported_mime">仅支持 PNG 或 JPEG 截图</string>
     <string name="intake_multiple_not_supported">一期每次只能导入一张图片</string>
     <string name="intake_unreadable">无法读取该内容，请换一张截图重试</string>
+    <string name="collection_title">收集箱</string>
+    <string name="collection_count">共 %1$d 条</string>
+    <string name="collection_add">添加</string>
+    <string name="collection_empty">还没有收集内容</string>
+    <string name="collection_empty_hint">点击“添加”粘贴文字或选择一张截图</string>
+    <string name="collection_image_item">截图素材</string>
+    <string name="common_back">返回收集箱</string>
+    <string name="detail_title">原始内容</string>
+    <string name="detail_image_source">截图来源</string>
+    <string name="detail_text_source">文字来源</string>
+    <string name="detail_original_image">原始截图</string>
+    <string name="detail_original_text">原文</string>
+    <string name="detail_status">处理状态：%1$s</string>
+    <string name="detail_duplicate">系统检测到完全相同的历史来源</string>
 </resources>

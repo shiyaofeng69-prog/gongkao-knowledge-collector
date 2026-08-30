@@ -19,7 +19,7 @@ interface FoundationDao {
     @Query("SELECT * FROM source_record WHERE sha256 = :sha256 ORDER BY createdAt ASC LIMIT 1")
     suspend fun findFirstSourceByHash(sha256: String): SourceRecordEntity?
 
-    @Query("SELECT * FROM source_record ORDER BY createdAt DESC")
+    @Query("SELECT * FROM source_record WHERE deletedAt IS NULL ORDER BY createdAt DESC, id DESC")
     suspend fun listSources(): List<SourceRecordEntity>
 
     @Transaction

@@ -17,6 +17,7 @@ class IntakeUiTest {
 
     @Test
     fun blankPasteShowsClearMessage() {
+        composeRule.onNodeWithText("添加").performClick()
         composeRule.onNodeWithText("保存文字").performClick()
         composeRule.onNodeWithText("没有可保存的文字，请先粘贴内容").assertIsDisplayed()
     }

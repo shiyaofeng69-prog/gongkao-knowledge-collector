@@ -1,6 +1,7 @@
 package com.gongkao.collector
 
 import android.content.Context
+import com.gongkao.collector.data.browse.SourceBrowseRepository
 import com.gongkao.collector.data.db.GongkaoDatabase
 import com.gongkao.collector.data.intake.SourceIntakeRepository
 
@@ -14,5 +15,9 @@ class AppContainer(context: Context) {
             sourceDirectory = context.filesDir.resolve("sources"),
             dao = database.foundationDao(),
         )
+    }
+
+    val sourceBrowseRepository: SourceBrowseRepository by lazy(LazyThreadSafetyMode.SYNCHRONIZED) {
+        SourceBrowseRepository(database.foundationDao())
     }
 }
